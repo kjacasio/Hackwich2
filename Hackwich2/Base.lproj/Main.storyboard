@@ -54,16 +54,37 @@
             </objects>
             <point key="canvasLocation" x="40.799999999999997" y="26.53673163418291"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="dCM-Bd-HIE">
             <objects>
-                <viewController id="xs8-me-bxT" sceneMemberID="viewController">
+                <viewController id="xs8-me-bxT" customClass="secondViewController" customModule="Hackwich2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PPC-FD-eOr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3e2-qD-kNr">
+                                <rect key="frame" x="149" y="141" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFq-PF-3DW">
+                                <rect key="frame" x="74" y="303" width="202" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="Change Color"/>
+                                <connections>
+                                    <action selector="changecolorbuttonpress:" destination="xs8-me-bxT" eventType="touchUpInside" id="c9g-VR-mPh"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ljG-Ee-OmX"/>
                     </view>
+                    <connections>
+                        <outlet property="firstlabel" destination="3e2-qD-kNr" id="rkh-dJ-6ue"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uN9-af-LKx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

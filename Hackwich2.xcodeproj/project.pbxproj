@@ -14,6 +14,7 @@
 		7F22196F23E0C65000F521B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F22196D23E0C65000F521B9 /* LaunchScreen.storyboard */; };
 		7F22197A23E0C65000F521B9 /* Hackwich2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F22197923E0C65000F521B9 /* Hackwich2Tests.swift */; };
 		7F22198523E0C65100F521B9 /* Hackwich2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F22198423E0C65100F521B9 /* Hackwich2UITests.swift */; };
+		7FBD7C9B23E36E7B002619BD /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBD7C9A23E36E7B002619BD /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7F22198023E0C65100F521B9 /* Hackwich2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hackwich2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F22198423E0C65100F521B9 /* Hackwich2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackwich2UITests.swift; sourceTree = "<group>"; };
 		7F22198623E0C65100F521B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FBD7C9A23E36E7B002619BD /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7F22196423E0C64F00F521B9 /* AppDelegate.swift */,
 				7F22196623E0C64F00F521B9 /* ViewController.swift */,
 				7F22196823E0C64F00F521B9 /* Main.storyboard */,
+				7FBD7C9A23E36E7B002619BD /* secondViewController.swift */,
 				7F22196B23E0C65000F521B9 /* Assets.xcassets */,
 				7F22196D23E0C65000F521B9 /* LaunchScreen.storyboard */,
 				7F22197023E0C65000F521B9 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F22196723E0C64F00F521B9 /* ViewController.swift in Sources */,
+				7FBD7C9B23E36E7B002619BD /* secondViewController.swift in Sources */,
 				7F22196523E0C64F00F521B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

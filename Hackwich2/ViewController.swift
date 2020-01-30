@@ -21,10 +21,13 @@ class ViewController: UIViewController {
     print("Hello World")
 
     }
+
     
-    
-    @IBAction func KatYahPress(_ sender: Any) {
+    @IBAction func KatYahPress(_ sender: Any)
+    {
+        
+   print("Kat Yah")
     }
-    print("Kat Yah")
+   
 }
 
